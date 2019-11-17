@@ -31,7 +31,7 @@ public class TestClass {
             switch (fun) {
                 case "initialize":
                     storage.initializeStorage();
-                    rootFile = Remote.getRootFile();
+                    rootFile = storage.getRootFile();
 
                     break;
                 case "login":
